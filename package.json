@@ -5,10 +5,12 @@
     "dist"
   ],
   "main": "./dist/vue-dsfr.umd.js",
-  "module": "./dist/vue-dsfr.es.js",
+  "module": "./dist/vue-dsfr.esm.js",
+  "browser": "vue-dsfr.js",
+  "unpkg": "vue-dsfr.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-dsfr.es.js",
+      "import": "./dist/vue-dsfr.esm.js",
       "require": "./dist/vue-dsfr.umd.js"
     }
   },
@@ -19,7 +21,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "dev": "vite",
-    "build": "vite build",
+    "build": "rollup -c",
     "serve": "vite preview",
     "test": "jest",
     "format": "npm run lint -- --fix",
@@ -68,9 +70,12 @@
     "lint-staged": "^11.0.0",
     "postcss": "^8.3.5",
     "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.5",
     "postcss-preset-env": "^6.7.0",
+    "rollup-plugin-postcss": "^4.0.0",
     "rollup-plugin-visualizer": "^5.5.0",
+    "rollup-plugin-vue": "^6.0.0",
     "storybook-builder-vite": "^0.0.12",
     "vite": "^2.3.8",
     "vue-jest": "^5.0.0-0",
