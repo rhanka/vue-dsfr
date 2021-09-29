@@ -102,6 +102,7 @@ VIcon.add(
   RiArrowUpSLine,
   RiArrowRightSLine,
   RiArrowDownSLine,
+  RiArrowDropDownLine,
   RiArrowLeftSLine,
   RiUserFill,
   RiUserLine,

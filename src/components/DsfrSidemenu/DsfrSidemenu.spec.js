@@ -1,6 +1,6 @@
 import { render } from '@testing-library/vue'
 
-import DsfrSideMenu from './DsfrSideMenu.vue'
+import DsfrSideMenu from './DsfrSidemenu.vue'
 
 const VIcon = { props: ['name'], template: '<i :class="name"></i>' }
 
