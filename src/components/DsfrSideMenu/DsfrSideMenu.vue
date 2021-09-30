@@ -24,7 +24,7 @@
         <ul
           v-for="(links, j) of menus"
           :key="j"
-          class="fr-sidemenu__list"
+          class="fr-sidemenu__list flex"
         >
           <li
             v-for="(link, k) of links"
