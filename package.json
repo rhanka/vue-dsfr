@@ -94,7 +94,7 @@
     "rollup-plugin-visualizer": "^5.5.2",
     "rollup-plugin-vue": "^6.0.0",
     "semantic-release": "^17.4.7",
-    "vite": "^2.6.13",
+    "vite": "^2.9.13",
     "vue-jest": "^5.0.0-alpha.10",
     "vue-loader": "^16.2.0",
     "vue-router": "^4.0.10",
